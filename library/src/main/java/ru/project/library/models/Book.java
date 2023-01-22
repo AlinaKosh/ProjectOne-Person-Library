@@ -20,6 +20,10 @@ public class Book {
         this.nameAuthor = nameAuthor;
         this.yearRealise = yearRealise;
     }
+    
+    public Book() {
+        
+    }
 
     public int getId() {
         return id;
